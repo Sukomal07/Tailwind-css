@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project_2</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="flex h-screen gap-10">
+        <img src="https://img.freepik.com/free-photo/superfood-background-with-green-vegetables_53876-106104.jpg?w=826&t=st=1683029587~exp=1683030187~hmac=8d6f38ac6002119be48b7bdd8e625d490e0a98ca60f3af2ace90ab7b644589a9"
+            alt="image" class="hidden lg:block w-1/2 h-screen ">
+        <div class="flex flex-col justify-center items-center lg:w-1/2 w-full m-auto h-screen gap-7">
+            <div class="text-xl flex gap-2 font-bold lg:w-[60%] w-[80%] md:w-[70%]">
+                <span class="text-green-600">&#9650;</span>
+                <h1>FarmMan</h1>
+            </div>
+            <div class="lg:w-[60%] w-[80%] md:w-[70%] text-2xl font-bold">
+                <h1>Hello,</h1>
+                <h1>Welcome Back</h1>
+            </div>
+            <form class="lg:w-[60%] w-[80%] md:w-[70%] flex flex-col gap-4">
+                <span>Login to manage your account</span>
+                <div class="flex flex-col gap-3">
+                    <input class="border px-4 py-2 w-full " type="email" name="email" placeholder="Email">
+                    <input class="border px-4 py-2 w-full" type="password" name="password" placeholder="Password">
+                </div>
+                <span class="text-blue-600 hover:text-blue-800">Forgot your password ? </span>
+                <button type="submit" class="w-full px-4 py-2 text-white text-xl hover:bg-green-800 bg-green-600 rounded-md">Login</button>
+            </form>
+            <div class="text-center flex flex-col gap-2">
+                <span>OR</span>
+                <div class="flex gap-10">
+                    <i class="fa-brands fa-facebook text-2xl cursor-pointer hover:text-blue-600"></i>
+                    <i class="fa-brands fa-google text-2xl cursor-pointer hover:text-green-600"></i>
+                    <i class="fa-brands fa-instagram text-2xl cursor-pointer hover:text-orange-600"></i>
+                </div>
+            </div>
+            <div>
+                <span>don't have an account?</span>
+                <span class="text-blue-600 hover:text-blue-800">Sign Up here</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
